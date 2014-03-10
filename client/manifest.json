@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "MatchupPredictor",
+  "description": "DIS IS SO DOPE",
+  "version": "1.0",
+
+  "permissions": [
+    "http://192.168.1.111/*"
+  ],
+  "content_scripts": [
+	{
+		"matches": ["http://*/*"],
+		"js": ["jquery.js", "htmlMod.js"]
+	}
+  ]
+}
